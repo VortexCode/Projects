@@ -1,4 +1,9 @@
-Projects
-========
+sudo apt-get install gcc build-essential libsdl1.2-dev
 
-This is where I am coding all of my products , If you download any of my projects you may edit how you like but you may not use my code commercially without my permission if you would like that email me at 'Vortexcode.inc@gmai.com'
+sudo apt-get install libsdl1.2-dev
+
+sudo usermod -a -G video [your_username]
+
+gcc `sdl-config --cflags` `sdl-config --libs` -o sdltest 
+
+main.cpp
